@@ -1,0 +1,21 @@
+{
+  "name": "blaze",
+  "version": "1.0.0",
+  "description": "Plan, create, and schedule social media content in Blaze: single-image posts, carousels, short videos, blog posts, and email newsletters, using your workspace's brand kit.",
+  "author": {
+    "name": "Blaze"
+  },
+  "homepage": "https://www.blaze.ai/mcp",
+  "repository": "https://github.com/almanaclabs/blaze-mcp",
+  "license": "MIT",
+  "keywords": [
+    "social media",
+    "content calendar",
+    "scheduling",
+    "carousel",
+    "brand kit",
+    "marketing"
+  ],
+  "logo": "assets/logo.png",
+  "skills": "./skills/"
+}
