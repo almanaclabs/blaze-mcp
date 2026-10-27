@@ -26,7 +26,7 @@ If the user gives a spreadsheet or list, parse it into this shape and show it ba
 
 ### Step 3: Upload local files
 
-If the media is on the user's computer, call `upload_media` with the filenames (keep the real extensions). For each file, PUT its raw bytes to the returned `upload_url`, for example:
+If the media is on the user's computer, call `get_media_upload_urls` with the filenames (keep the real extensions). For each file, PUT its raw bytes to the returned `upload_url`, for example:
 
 ```
 curl -X PUT --upload-file ./photo-1.jpg "<upload_url>"

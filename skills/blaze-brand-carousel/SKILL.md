@@ -5,7 +5,7 @@ description: Design a multi-slide social media carousel in Blaze using the works
 
 # Make a carousel from the brand kit
 
-Build a carousel slide by slide with `compose_design`, using the brand kit, then refine it with `edit_design`.
+Build a carousel slide by slide with `compose_design`, using the brand kit, then refine it with the design edit tools.
 
 ## Workflow
 
@@ -38,7 +38,7 @@ Call `compose_design` with one frame per slide:
 
 ### Step 5: Review and edit
 
-Show the returned previews. Apply the user's changes with `edit_design`, batching several changes in one `ops` list. Use the aliases from the returned structure (for example `s2-text-1`).
+Show the returned previews. Apply the user's changes with the design edit tools, one call per change: `set_design_text`, `recolor_design_element`, `replace_design_image`, `move_design_element`, `set_design_font_size`, `set_design_font_weight`, `set_design_element_width`, `set_design_text_panel`, `remove_design_element`, `set_design_background`, `add_design_text`, `add_design_shape` or `add_design_logo`. Target elements and slides by the aliases in the returned structure (for example `s2-text-1`); after `remove_design_element`, read the new structure, because aliases are renumbered.
 
 ### Step 6: Next steps
 

@@ -30,12 +30,12 @@ New content is saved as a draft. The assistant confirms with you before it publi
 public review reply.
 
 <details>
-<summary>All 27 tools</summary>
+<summary>All 39 tools</summary>
 
 | Tool | What it does |
 |---|---|
 | `list_workspaces` | Lists the Blaze workspaces you can access. |
-| `workspace_info` | Details of one workspace. |
+| `get_workspace` | Details of one workspace. |
 | `get_brand_kit` | Brand name, voice, colors, logos, and fonts. |
 | `list_scheduled_posts` | Posts on the calendar, filtered by status and type. |
 | `get_scheduled_post` | One post in full, including a blog post's HTML export. |
@@ -47,20 +47,32 @@ public review reply.
 | `generate_image` | Generate a single image in the background. |
 | `get_generated_image` | Poll a generated image. |
 | `compose_design` | Build a new design from a layout you describe. |
-| `edit_design` | Edit an existing design element by element. |
+| `set_design_text` | Replace the words of a text element in a design. |
+| `replace_design_image` | Swap the picture in an image element. |
+| `recolor_design_element` | Change the color of text, a shape or a background. |
+| `set_design_font_size` | Set a text element's font size. |
+| `set_design_font_weight` | Set a text element's font weight. |
+| `set_design_element_width` | Set an element's width, or fit a text box to one line. |
+| `set_design_text_panel` | Add, restyle or remove the panel behind a text element. |
+| `move_design_element` | Move an element to a new position. |
+| `remove_design_element` | Delete one element from a design. |
+| `set_design_background` | Set a slide's background image. |
+| `add_design_text` | Add a text element to a slide. |
+| `add_design_shape` | Add a decorative shape to a slide. |
+| `add_design_logo` | Place the brand logo on a slide. |
 | `get_design_preview` | Render a design's slides. |
 | `create_doc` | Save a blog post or email newsletter from Markdown as a draft. |
 | `create_campaign` | Create a campaign with topics. |
 | `list_campaigns` | List campaigns and their topics. |
-| `upload_media` | Get upload URLs for media on your computer. |
+| `get_media_upload_urls` | Get upload URLs for media on your computer. |
 | `search_media` | Search the workspace's media library. |
 | `search_fonts` | Search the fonts Blaze can render. |
 | `schedule_posts` | Schedule your own posts and media to connected accounts. |
 | `list_connected_accounts` | Connected social accounts and whether each is active. |
 | `get_performance_digest` | Followers and impressions per account, with top posts. |
-| `list_replies_to_make` | Reviews and comments that still need a reply. |
-| `draft_reply` | Suggested replies in three tones. |
-| `send_reply` | Post a public reply to a review. |
+| `list_reviews_to_reply` | Reviews and comments that still need a reply. |
+| `draft_review_replies` | Suggested replies in three tones. |
+| `send_review_reply` | Post a public reply to a review. |
 
 </details>
 
