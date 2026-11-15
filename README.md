@@ -162,6 +162,30 @@ server's `401` response. For clients that only speak stdio, use [`mcp-remote`](h
 The first time you use a tool, sign in to Blaze in the browser window that opens and approve access to your
 workspaces. You can disconnect at any time from Blaze.
 
+## Plugin and skills
+
+**Claude Code.** Install the Blaze plugin. It adds the MCP connection, the skills below, a `/blaze-post` command, and a safety skill that has the assistant confirm channels and times before anything is scheduled or published.
+
+```
+/plugin marketplace add almanaclabs/blaze-mcp
+/plugin install blaze@blaze
+```
+
+**Any agent that reads skills** (Claude Code, Codex, Cursor and others):
+
+```
+npx skills add almanaclabs/blaze-mcp
+```
+
+| Skill | What it does |
+|---|---|
+| `blaze-plan-week` | Plans 5 to 7 posts and generates them as drafts |
+| `blaze-brand-carousel` | Makes a carousel in your brand |
+| `blaze-schedule-posts` | Schedules your own images or videos with captions |
+| `blaze-daily-digest` | Followers and impressions for yesterday, the week and the month |
+| `blaze-fast-moving-topics` | Finds timely topics that fit your brand and drafts a post |
+| `blaze-safety` | Confirms before scheduling, publishing, deleting or replying in public |
+
 ## Try it
 
 - "Plan next week's posts for my brand and draft them in Blaze."

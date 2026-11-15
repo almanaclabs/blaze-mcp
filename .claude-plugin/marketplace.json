@@ -1,0 +1,15 @@
+{
+  "name": "blaze",
+  "description": "Blaze for Claude Code: make and schedule social content from your terminal.",
+  "owner": {
+    "name": "Blaze",
+    "url": "https://www.blaze.ai"
+  },
+  "plugins": [
+    {
+      "name": "blaze",
+      "source": "./",
+      "description": "Make and schedule on-brand posts, carousels, videos, blogs and newsletters with Blaze."
+    }
+  ]
+}
